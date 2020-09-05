@@ -7,10 +7,10 @@ Follow the installation procedure.
 
 ## Install dependencies
 Check if python3 is installed (tested with python3.7)
-'''shell
-python3 --version'''
+```python3 --version```
+
 If you see something like 'command not found: python3', use brew to install python3
-'''brew install python3'''
+```brew install python3```
 Now install 'libusb' using brew
 '''brew install libusb'''
 
