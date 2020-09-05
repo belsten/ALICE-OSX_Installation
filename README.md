@@ -1,12 +1,12 @@
 # Purpose
 This document is a short guide on how to install alice for use with the Analog Devices M1000 board on macOS. Support for macOS with alice 1.3 is limited and the installation procedure provided from Analog Devices is spotty and unclear.  
 
-## Install libsmu-1.0.2
+## Download and Install libsmu-1.0.2
 Go to https://github.com/analogdevicesinc/libsmu/releases and  download libsmu-1.0.2-darwin-{OS X}.pkg where {OS X} is the version of OS X your computer is running. Locate the downloaded .pkg in Finder and control-click it. Choose open. A warning will probably pop up saying that macOS cannot verify the developer. Click "open".
 Follow the installation procedure.
 
 ## Install dependencies
-Check if python3 is installed (tested with python3.7)
+Check if python3 is installed by opening the terminal and issuing the following command
 
 ```python3 --version```
 
@@ -53,4 +53,4 @@ If installation was successful, `Python configuration appears to be OK.  Good lu
 
 ```./test.sh```
 
-The program should now run. If this is the first time the M1K has been connected to a computer, it may need its firmware updated. The latest firmware can be downloaded [here](https://github.com/analogdevicesinc/m1k-fw/releases/tag/v2.1). Just upload the .bin when prompted.
+The program should now run. If this is the first time the M1K has been connected to a computer, it may need its firmware updated. The latest firmware can be downloaded [here](https://github.com/analogdevicesinc/m1k-fw/releases/tag/v2.1). Just upload the .bin to alice when prompted.
