@@ -41,8 +41,10 @@ Go back to your terminal and re-run
 
 You'll get another pop-up, but this time you will be able to click 'open'.
 ![](img/open.png)
-A similar error to the first one will pop-up, follow the same procedure as above. If installation was successful, `Python configuration appears to be OK.  Good luck running Alice!` will have been printed to the terminal. Re-run the test script again...
+A similar error to the first one will pop-up, follow the same procedure as above to allow the other app to be opened.
+
+If installation was successful, `Python configuration appears to be OK.  Good luck running Alice!` will have been printed to the terminal. Re-run the test script again...
 
 ```./test.sh```
 
-The program should now run. If this is the first time the M1K has been connected to a computer, it may need its firmware updated.
+The program should now run. If this is the first time the M1K has been connected to a computer, it may need its firmware updated. The latest firmware can be downloaded [here](https://github.com/analogdevicesinc/m1k-fw/releases/tag/v2.1). Just upload the .bin when prompted.
