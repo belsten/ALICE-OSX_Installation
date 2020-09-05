@@ -31,9 +31,11 @@ Plug in the M1K. Open the terminal and cd to where you downloaded alice. Once in
 ```./test.sh```
 
 If you're using Catalina, you'll get a pop-up that says the package is from an unverified developer.
+
 <img src="img/first_error.png" alt="drawing" width="400"/>
 
 Click cancel. Now open "System Preferences > Security and Privacy > General". You'll see a notice that 'libsmu.cpython-37m-darwin.so' was blocked.
+
 <img src="img/allow_anyway_in_settings.png" alt="drawing" width="400"/>
 
 Click "Allow Anyway".
@@ -42,6 +44,7 @@ Go back to your terminal and re-run
 ```./test.sh```
 
 You'll get another pop-up, but this time you will be able to click 'open'.
+
 <img src="img/open.png" alt="drawing" width="400"/>
 
 A similar error to the first one will pop-up, follow the same procedure as above to allow the other app to be opened.
