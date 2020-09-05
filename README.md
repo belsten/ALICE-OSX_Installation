@@ -30,12 +30,18 @@ Plug in the M1K. Open the terminal and cd to where you downloaded alice. Once in
 
 ```./test.sh```
 
-If you're using Catalina, you'll get a pop-up that says the package is from an unverified developer. Click close. Now open "System Preferences > Security and Privacy > General". You'll see a little notice that ______ is from an unverified developer. Click "Allow Anyway".
+If you're using Catalina, you'll get a pop-up that says the package is from an unverified developer.
+![](img/first_error.png)
+Click cancel. Now open "System Preferences > Security and Privacy > General". You'll see a notice that 'libsmu.cpython-37m-darwin.so' was blocked.
+![](img/allow_anyway_in_settings.png)
+Click "Allow Anyway".
 Go back to your terminal and re-run
 
 ```./test.sh```
 
-If another pop-up comes up, follow the same procedure as above and re-run
+You'll get another pop-up, but this time you will be able to click 'open'.
+![](img/open.png)
+A similar error to the first one will pop-up, follow the same procedure as above. If installation was successful, `Python configuration appears to be OK.  Good luck running Alice!` will have been printed to the terminal. Re-run the test script again...
 
 ```./test.sh```
 
