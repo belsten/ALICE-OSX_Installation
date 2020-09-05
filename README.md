@@ -1,4 +1,4 @@
-#Purpose
+# Purpose
 This document is a short guide on how to install alice for use with the Analog Devices M1000 board on macOS. Support for macOS with alice 1.3 is limited and the installation procedure provided from Analog Devices is spotty and unclear.  
 
 ## Install libsmu-1.0.2
